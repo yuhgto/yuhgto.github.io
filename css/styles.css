@@ -1,0 +1,45 @@
+body {
+    background-color: #ce0606;
+}
+
+h1 {
+    color: White;
+    font-family: Futura, sans-serif;
+    font-style: oblique;
+    font-weight: bold;
+
+    text-align: center;
+}
+
+p {
+    color: White;
+    font-family: Futura, sans-serif;
+    text-align: center;
+    font-style: oblique;
+}
+
+li {
+    list-style: none;
+}
+
+.flex-container {
+    padding: 0;
+    margin-left: 60px;
+    margin-right: 60px;
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-item {
+    color: White;
+    height: 42px;
+    display: inline;
+    font-family: Futura, sans-serif;
+    font-style: oblique;
+    text-align: center;
+    vertical-align: middle;
+    margin: 40px;
+}
