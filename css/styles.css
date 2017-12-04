@@ -1,19 +1,28 @@
 body {
-    background-color: #ce0606;
+    /*background-color: #ce0606;*/
+    background-color: White;
 }
 
 h1 {
-    color: White;
-    font-family: Futura, sans-serif;
+    color: Black;
+    font-family: 'Oswald', 'Futura', sans-serif;
+    font-weight: bold;
+    font-style: oblique;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+h2 {
+    color: Black;
+    font-family: 'Futura', sans-serif;
     font-style: oblique;
     font-weight: bold;
-
     text-align: center;
 }
 
 p {
-    color: White;
-    font-family: Futura, sans-serif;
+    color: Black;
+    font-family: 'Futura', sans-serif;
     text-align: center;
     font-style: oblique;
 }
@@ -31,13 +40,15 @@ li {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    vertical-align: middle;
 }
 
 .flex-item {
-    color: White;
+    color: Black;
     height: 42px;
     display: inline;
-    font-family: Futura, sans-serif;
+    font-family: 'Futura', sans-serif;
+    font-weight: bold;
     font-style: oblique;
     text-align: center;
     vertical-align: middle;
