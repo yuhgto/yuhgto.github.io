@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Roboto|Roboto+Slab');
+
+
+
 body {
     /*background-color: #ce0606;*/
     background-color: White;
@@ -5,26 +9,28 @@ body {
 
 h1 {
     color: Black;
-    font-family: 'Oswald', 'Futura', sans-serif;
+    /* font-family: 'Oswald', 'Futura', sans-serif; */
+    font-family: 'Roboto Slab', serif;
     font-weight: bold;
-    font-style: oblique;
-    text-transform: capitalize;
+    /* font-style: oblique; */
     text-align: center;
 }
 
 h2 {
     color: Black;
-    font-family: 'Futura', sans-serif;
-    font-style: oblique;
+    /* font-family: 'Futura', sans-serif; */
+    font-family: 'Roboto', serif;
+    /* font-style: oblique; */
     font-weight: bold;
     text-align: center;
 }
 
 p {
     color: Black;
-    font-family: 'Futura', sans-serif;
+    /* font-family: 'Futura', sans-serif; */
+    font-family: 'Roboto', serif;
     text-align: center;
-    font-style: oblique;
+    /* font-style: oblique; */
 }
 
 li {
@@ -47,10 +53,18 @@ li {
     color: Black;
     height: 42px;
     display: inline;
-    font-family: 'Futura', sans-serif;
+    /* font-family: 'Futura', sans-serif; */
+    font-family: 'Roboto', serif;
     font-weight: bold;
     font-style: oblique;
     text-align: center;
     vertical-align: middle;
     margin: 40px;
+}
+
+.site-header {
+    background-color: inherit;
+    position: absolute;
+    width: 100%;
+    
 }
