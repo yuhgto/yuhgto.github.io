@@ -1,13 +1,25 @@
 
 /* Import fonts  */
-@import url('https://fonts.googleapis.com/css?family=Lato|Roboto|Roboto+Slab|Oswald|Futura');
+@import url('https://fonts.googleapis.com/css?family=Lato|Roboto|Roboto+Slab|Futura');
 
 body {
     background-color: #ce0606;
+    margin: 0 auto;
+    width: 980px;
     /* background-color: White; */
 }
 
-h1 {
+/* Wrap the whole site in 1080px */
+.wrapper {
+    padding: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+h1, h2, p {
     color: Black;
     font-family: 'Futura', sans-serif;
     /* font-family: 'Roboto Slab', serif; */
@@ -16,28 +28,9 @@ h1 {
     text-align: center;
 }
 
-h2 {
-    color: Black;
-    font-family: 'Futura', sans-serif;
-    /* font-family: 'Roboto', serif; */
-    font-style: oblique;
-    font-weight: bold;
-    text-align: center;
-}
-
-p {
-    color: Black;
-    font-family: 'Futura', sans-serif;
-    /* font-family: 'Roboto', serif; */
-    text-align: center;
-    font-style: oblique;
-}
-
 /* Container for the full top header */
 .site-header {
-    background-color: White;
-    padding-left: 30px;
-    padding-right: 30px;
+    background-color: inherit;
     font-family: 'Roboto Slab';
 }
 
@@ -48,31 +41,33 @@ p {
     font-size: 30px;
     text-align: left;
     float: left;
+    clear: left;
 }
 
 /* Class for nav links of navbar */
 .site-navbar {
+    background-color: inherit;
+    display: flex;
     overflow: hidden;
     text-align: right;
-    float: right;
 }
 
 /* Style the links in the navbar */
 .site-navbar a {
-    float:left;
-    color:Black;
-    text-align: right;
-    padding: 14px 16px;
+    color: Black;
+    vertical-align: middle;
     text-decoration: none;
     font-size: 20px;
+    padding: 16px;
 }
 
+/* Middle space to push flex elements to the side */
+.navbar-buffer {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Wrapper for main content of page */
 .site-content {
-    background-color: White;
-}
-
-/* Wrap the whole site in 1080px */
-.wrapper {
-    max-width: 1080px;
-    margin: 0 auto;
+    background-color: inherit;
 }
