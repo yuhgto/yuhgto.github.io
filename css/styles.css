@@ -1,70 +1,78 @@
-@import url('https://fonts.googleapis.com/css?family=Lato|Roboto|Roboto+Slab');
 
-
+/* Import fonts  */
+@import url('https://fonts.googleapis.com/css?family=Lato|Roboto|Roboto+Slab|Oswald|Futura');
 
 body {
-    /*background-color: #ce0606;*/
-    background-color: White;
+    background-color: #ce0606;
+    /* background-color: White; */
 }
 
 h1 {
     color: Black;
-    /* font-family: 'Oswald', 'Futura', sans-serif; */
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Futura', sans-serif;
+    /* font-family: 'Roboto Slab', serif; */
     font-weight: bold;
-    /* font-style: oblique; */
+    font-style: oblique;
     text-align: center;
 }
 
 h2 {
     color: Black;
-    /* font-family: 'Futura', sans-serif; */
-    font-family: 'Roboto', serif;
-    /* font-style: oblique; */
+    font-family: 'Futura', sans-serif;
+    /* font-family: 'Roboto', serif; */
+    font-style: oblique;
     font-weight: bold;
     text-align: center;
 }
 
 p {
     color: Black;
-    /* font-family: 'Futura', sans-serif; */
-    font-family: 'Roboto', serif;
+    font-family: 'Futura', sans-serif;
+    /* font-family: 'Roboto', serif; */
     text-align: center;
-    /* font-style: oblique; */
-}
-
-li {
-    list-style: none;
-}
-
-.flex-container {
-    padding: 0;
-    margin-left: 60px;
-    margin-right: 60px;
-    display: flex;
-    height: 100%;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    vertical-align: middle;
-}
-
-.flex-item {
-    color: Black;
-    height: 42px;
-    display: inline;
-    /* font-family: 'Futura', sans-serif; */
-    font-family: 'Roboto', serif;
-    font-weight: bold;
     font-style: oblique;
-    text-align: center;
-    vertical-align: middle;
-    margin: 40px;
 }
 
+/* Container for the full top header */
 .site-header {
-    background-color: inherit;
-    position: absolute;
-    width: 100%;
-    
+    background-color: White;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Roboto Slab';
+}
+
+/* Style the title of the site (left part of header) */
+.site-title {
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: left;
+    float: left;
+}
+
+/* Class for nav links of navbar */
+.site-navbar {
+    overflow: hidden;
+    text-align: right;
+    float: right;
+}
+
+/* Style the links in the navbar */
+.site-navbar a {
+    float:left;
+    color:Black;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.site-content {
+    background-color: White;
+}
+
+/* Wrap the whole site in 1080px */
+.wrapper {
+    max-width: 1080px;
+    margin: 0 auto;
 }
