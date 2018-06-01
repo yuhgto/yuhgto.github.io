@@ -33,16 +33,16 @@ p {
     font-size: 20px;
 }
 
-p:hover, h1:hover {
-    color: White;
+a {
+    color:inherit;
+    text-decoration: none;
+    border-bottom: 1.5px solid Black;
 }
 
-.img-wrapper {
-    display: flex;
-}
-
-.display-img {
-
+/* Wrapper for main content of page */
+.site-content {
+    background-color: inherit;
+    padding: 48px;
 }
 
 /* Style the whole navbar */
@@ -71,6 +71,11 @@ p:hover, h1:hover {
     text-decoration: inherit;
 }
 
+a:hover {
+    color: #8DAED7;
+    border-bottom: 3px solid #8DAED7;
+}
+
 /* Style the title of the site (left part of header) */
 .site-title {
     padding: 16px;
@@ -95,8 +100,11 @@ p:hover, h1:hover {
     margin-right: auto;
 }
 
-/* Wrapper for main content of page */
-.site-content {
-    background-color: inherit;
-    padding: 48px;
+/* Style the profile pic */
+.prof-pic {
+    display: flex;
+    clip-path: circle(100px at center);
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
 }
